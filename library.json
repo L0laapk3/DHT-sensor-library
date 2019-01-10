@@ -1,0 +1,20 @@
+{
+	"name": "DHT sensor library",
+	"keywords": "sensor, dht, temperature, humidity, unified, L0laapk3",
+	"description": "Library for DHT11, DHT22, etc Temp & Humidity Sensors",
+	"repository":
+	{
+	  "type": "git",
+	  "url": "https://github.com/L0laapk3/DHT-sensor-library.git"
+	},
+	"exclude": "ahrs",
+	"dependencies":
+	[
+	  {
+		"name": "Adafruit Unified Sensor",
+		"frameworks": "arduino"
+	  }
+	],
+	"frameworks": "arduino",
+	"platforms": "*"
+  }
